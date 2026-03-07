@@ -67,10 +67,9 @@ def predict_apogee(h_current, v_current, brake_position, mass, Cd, A_base, A_max
 
 class RocketAltitudeSimulator(Simulator):
     """
-    Rocket simulator that outputs PREDICTED apogee instead of current altitude.
+    Rocket simulator that outputs PREDICTED apogee.
     
-    This allows PID to control based on where the rocket WILL end up,
-    not where it currently is.
+    Allows PID to control based on where the rocket will end up
     
     Input: brake_position (0.0 = closed, 1.0 = fully open)
     Output: predicted apogee (meters)
