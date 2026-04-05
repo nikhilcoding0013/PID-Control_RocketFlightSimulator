@@ -105,13 +105,17 @@ Optimized gains and final apogee error are printed to the console:
 ```
 OPTIMIZATION RESULTS
 Optimal PID Gains:
-  Kp = 0.031724
-  Ki = 0.004812
-  Kd = 0.018563
+  Kp = 0.182037
+  Ki = 0.013259
+  Kd = -0.018519
 
-Final error: 0.241m
+Final error: 0.558m
 Converged: True
-Iterations: 87
+Iterations: 18
+
+Simulating with optimal gains...
+Final apogee: 229.28m
+Error from target: +0.68m
 ```
 
 ---
