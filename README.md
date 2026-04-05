@@ -1,4 +1,4 @@
-# PID-Control Rocket Airbrake Flight Simulator
+# Rocket Airbrake Flight Simulator with PID-Control
 
 A physics-based flight simulator for optimizing airbrake deployment in model rockets to achieve a precise target apogee. Uses predictive PID control to dynamically adjust airbrakes during flight based on real-time apogee predictions.
 
